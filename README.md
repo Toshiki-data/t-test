@@ -2,25 +2,20 @@
 
 This project analyzes Google Maps customer ratings of Paul bakeries located in Brussels (23 stores) and Paris (13 stores). The goal is to test whether a statistically significant difference exists between the two cities' evaluations.
 
-  📊 Methodology
-  
-  Data source
+  📊 Data source
   
     Google Maps evaluations (manual extraction)
   
-  Statistical tests:
+  📈Statistical tests and Results:
   
     Shapiro-Wilk test (normality check)
+      -> Normality was not rejected (p > 0.05)
+      
     Levene’s test (homogeneity of variances)
+      -> Homogeneity of variances was rejected (p < 0.05) 
+      
     Welch's t-test (due to unequal variances)
-    
-  
-  📈 Results
-  
-    Normality was not rejected (p > 0.05)
-    Homogeneity of variances was rejected (p < 0.05)
-    Welch's t-test showed a significant difference (p = 0.0002)
-    
+      -> Welch's t-test showed a significant difference (p = 0.0002)
   
   ➡️ Conclusion
     
@@ -28,27 +23,24 @@ This project analyzes Google Maps customer ratings of Paul bakeries located in B
 
 =======================================================================================
 
-Titre : Comparaison des évaluations des boulangeries Paul à Bruxelles et à Paris
+Comparaison des évaluations des boulangeries Paul à Bruxelles et à Paris
 
 Ce projet analyse les évaluations des boulangeries Paul sur Google Maps, à Bruxelles (23 magasins) et à Paris (13 magasins). L’objectif est de déterminer s’il existe une différence significative entre les deux villes.
 
-  📊 Méthodologie
-  
-  Source des données 
+  📊 Source des données 
   
     Évaluations Google Maps (relevées manuellement)
     
-  Tests statistiques :
+  📈Tests statistiques et Résultats :
   
     Test de Shapiro-Wilk (normalité)
+      ->La normalité n’a pas été rejetée (p > 0.05)
+      
     Test de Levene (homogénéité des variances)
+      ->L’homogénéité des variances a été rejetée (p < 0.05)
+      
     Test t de Welch (variances inégales)
-  
-  📈 Résultats
-  
-    La normalité n’a pas été rejetée (p > 0.05)
-    L’homogénéité des variances a été rejetée (p < 0.05)
-    Le test de Welch montre une différence significative (p = 0.0002)
+      ->Le test de Welch montre une différence significative (p = 0.0002)
   
   ➡️ Conclusion
   
@@ -56,26 +48,24 @@ Ce projet analyse les évaluations des boulangeries Paul sur Google Maps, à Bru
 
 =======================================================================================
 
-タイトル：ブリュッセルとパリにおけるPaulベーカリーの評価比較
+ブリュッセルとパリにおけるPaulベーカリーの評価比較
 
 このプロジェクトでは、GoogleマップにおけるPaulベーカリーの評価を分析し、**ブリュッセル（23店舗）とパリ（13店舗）**の間で統計的に有意な差があるかを検証した。
 
-  📊 分析方法
-  データソース
+  📊 データソース
   
     Googleマップの評価（手作業で取得）
   
-  統計検定：
+  📈 統計検定と結果：
   
     Shapiro-Wilk検定（正規性の確認）
+      -> 正規性は棄却されなかった（p > 0.05）
+    
     Levene検定（等分散性の確認）
+      -> 等分散性は棄却された（p < 0.05）
+    
     Welchのt検定（分散が異なる場合）
-  
-  📈 結果
-  
-    正規性は棄却されなかった（p > 0.05）
-    等分散性は棄却された（p < 0.05）
-    Welchのt検定では、有意差が確認された（p = 0.0002）
+      -< Welchのt検定では、有意差が確認された（p = 0.0002）
   
   ➡️ 結論
   
