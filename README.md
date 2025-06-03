@@ -50,7 +50,7 @@ Ce projet analyse les évaluations des boulangeries Paul sur Google Maps, à Bru
 
 ブリュッセルとパリにおけるPaulベーカリーの評価比較
 
-このプロジェクトでは、GoogleマップにおけるPaulベーカリーの評価を分析し、**ブリュッセル（23店舗）とパリ（13店舗）**の間で統計的に有意な差があるかを検証した。
+このプロジェクトでは、GoogleマップにおけるPaulベーカリーの評価を分析し、ブリュッセル（23店舗）とパリ（13店舗）の間で統計的に有意な差があるかを検証した。
 
   📊 データソース
   
@@ -65,7 +65,7 @@ Ce projet analyse les évaluations des boulangeries Paul sur Google Maps, à Bru
       -> 等分散性は棄却された（p < 0.05）
     
     Welchのt検定（分散が異なる場合）
-      -< Welchのt検定では、有意差が確認された（p = 0.0002）
+      -> Welchのt検定では、有意差が確認された（p = 0.0002）
   
   ➡️ 結論
   
